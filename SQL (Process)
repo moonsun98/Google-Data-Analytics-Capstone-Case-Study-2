@@ -1,0 +1,20 @@
+--Checking the consistency of the number of users
+SELECT COUNT (DISTINCT(Id)) as count_id
+FROM dailyActivity;
+SELECT COUNT (DISTINCT(Id)) as heart_id
+FROM heartrate_seconds;
+SELECT COUNT (DISTINCT(Id)) as calorie_id
+FROM hourlyCalories;
+SELECT COUNT (DISTINCT(Id)) as steps_id
+FROM hourlySteps;
+SELECT COUNT (DISTINCT(Id)) as intensity_id
+FROM hourlyIntensities;
+SELECT COUNT (DISTINCT(Id)) as sleep_id
+FROM sleepDay;
+
+--Joining hourlySteps, hourlyCalories, and hourlyIntensities
+SELECT S.Id, S.ActivityHour, S.StepTotal as HourlySteps, I.TotalIntensity as HourlyIntensities, C.Calories as HourlyCalories
+FROM hourlySteps S
+JOIN hourlyIntensities I ON S.Id = I.Id AND S.ActivityHour = I.ActivityHour
+JOIN hourlyCalories C ON S.Id = C.Id AND S.ActivityHour = C.ActivityHour
+-- extracting the joined hourly table as a dataset as hourlyJoined
