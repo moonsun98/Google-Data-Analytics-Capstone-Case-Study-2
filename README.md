@@ -62,3 +62,5 @@ The following conclusions can be drawn from each graph:
 
 ## Act / Recommendation
 
+- The Bellabeat app could introduce rest days so the users could work every alternating day with more intensity. Since an intensive has its effect for a prolonged period of time, a HIIT type of workout every alternating day would be more beneficial to burn calories.
+- Since people work out more only when the sedentary minutes are more as well, they lose out extra work benefit if the sedentary minutes were less. So they could be actively resting which will help Bellabeat users outperform other non-Bellabeat users. All of it could be instructed on the Bellabeat App and can be tracked through the Leaf bracelet or Time watch. 
