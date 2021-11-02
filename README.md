@@ -46,3 +46,19 @@ minuteSteps, minuteCalories and minuteIntensities data is consistent with hourly
 The hourly tables, that are, hourlySteps, hourlyIntensities, hourlySteps are therefore joined and used instead of minute tables.
 
 For analysis - dailyActivity and hourlyCalories, hourlySteps, hourlyIntensities joined are taken into account.
+
+## Data Visualization and Analysis
+The following graphs are created using Tableau
+- Calories Per Day 
+- Sedantary Minutes vs Calories Burnt
+- Steps, Intensity and Calorie Per Hour
+
+The following conclusions can be drawn from each graph:
+- People burn the most calorie on Tuesday and the rate drops throughout the week.
+- The sedentary minutes seem to be correlated to calorie burnt.
+- More calorie burnt effect seems to carry over to the next day. So more workout on one day compensates for the next day.
+
+[Link to the tableau dashboard](https://public.tableau.com/app/profile/siddhartha.roy.chowdhury/viz/Book1_16357038602870/Dashboard1)
+
+## Act / Recommendation
+
